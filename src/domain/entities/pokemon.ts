@@ -4,6 +4,7 @@ export interface Pokemon {
   types: string[];
   avatar: string;
   sprites: string[];
+  color: string; // This will be used for the card background color
 
   // todo:
   // color: string;
